@@ -518,7 +518,7 @@ a:active {
   padding-top: 80px;
   padding-bottom: 50px;
 }
-/*background Animation*/
+/*background Animation in the header*/
 #hero {
   background: linear-gradient(90deg, #7D009E, #Fffff8);
   animation: animate 20s linear infinite;
