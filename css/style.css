@@ -22,6 +22,7 @@ header {
   left: 0;
   width: 100%;
   box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .2);
+  z-index: 5;
 }
 
 body {
@@ -521,6 +522,9 @@ a:active {
 #hero {
   background: linear-gradient(90deg, #7D009E, #Fffff8);
   animation: animate 20s linear infinite;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes animate {
