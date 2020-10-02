@@ -1,0 +1,113 @@
+#title2 h2 {
+  color: #819900;
+  border-left: 7px solid #819900;
+  background: #E9EFC2;
+  background-size: cover;
+  text-align: center;
+  padding: 10px;
+  width: 50% display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#user_research h4 {
+  font-family: Playfair display;
+  font-style: italic;
+  color: #000000;
+  font-weight: 600;
+  border-left: 5px solid #A4B248;
+  padding: 20px;
+
+}
+
+#title1 h2 {
+  color: #819900;
+  border-bottom: 7px solid black;
+  padding: 0 10px 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40;
+}
+
+#user-Synthesis h2 {
+  color: #819900;
+  text-align: left;
+}
+
+.health-savvy-icon{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@media only screen and (min-width: 790px) {
+
+.col-mockups3 {
+  width: 33.33%;
+}
+
+.col-mockups2 {
+width: 400px;
+animation-delay: 2s;
+}
+
+
+.mockups h3 {
+  text-align: center;
+  font-weight: Medium;
+  color: #FF7300;
+}
+}
+
+/* ==============================
+small devices (300px and larger)
+================================= */
+@media only screen and (max-width: 780px) {
+  .col-mockups2 {
+    width: 100%;
+  }
+
+  .col-mockups3 {
+    width: 100%;
+  }
+
+  .description {
+    text-align: left;
+  }
+  .mockups h3 {
+    text-align: center;
+    font-weight: Medium;
+    color: #FF7300;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+
+  .pic-padding
+  {
+    margin-bottom:100px;
+  }
+
+  .description {
+   text-align: left;
+    padding-left: 100px;
+    float:none;
+  }
+  .italic-title{
+    float:left;
+  }
+  .title-research
+  {
+    overflow:hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .row-mockups2{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}

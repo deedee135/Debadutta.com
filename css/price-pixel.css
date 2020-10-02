@@ -1,0 +1,52 @@
+.header-text{
+  background: black;
+  border-radius: 30px;
+  width 70%
+}
+.header-text-inside{
+  box-sizing: border-box;
+  border-radius: 30px;
+  border:1px solid #FFB500;
+  transform: translate(5px, 5px);
+  padding: 8px;
+
+}
+.header-text h2{
+  font-weight: 500;
+  color:#FFB500;
+  text-align:center;
+  margin bottom: 10px;
+  letter-spacing: 9.3px;
+  font-size: 1.2em;
+}
+.container{
+  padding-top: 20px;
+}
+.pic{
+  padding: 50px 10px;
+}
+.container p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.body h2{
+  color: #FFB500;
+  text-align: center;
+}
+.body h3{
+  color: #FFB500;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: overline;
+}
+
+/* ==============================
+small devices (640px and larger)
+================================= */
+@media only screen and (min-width: 641px)
+{
+  .header-text h2{
+    font-size: 2em;
+  }
+}
