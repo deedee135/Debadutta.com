@@ -184,7 +184,7 @@ nav>ul {
 #work .pic {
   transition: 1s ease;
 }
-/* hover effect*/
+/* hover effect on pictures*/
 #work .pic:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
