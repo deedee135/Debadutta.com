@@ -67,7 +67,7 @@ footer {
 #hero h2 {
   color: White;
   text-align: center;
-  padding-top: 50px;
+
 }
 
 .description {
@@ -521,7 +521,7 @@ a:active {
 }
 /*background Animation in the header*/
 #hero {
-  background: linear-gradient(90deg, #7D009E, #Fffff8);
+  background: linear-gradient(90deg, #7D009E, #CEE2FF);
   animation: animate 20s linear infinite;
   overflow: hidden;
   position: relative;
@@ -645,7 +645,7 @@ small devices (640px and larger)
   }
 
   .row-hero {
-    padding-top: 0;
+padding-top: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -675,6 +675,7 @@ small devices (640px and larger)
   z-index: 10;
   opacity: 0.7;
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -705,6 +706,7 @@ small devices (640px and larger)
   width: 2px;
   height: 6px;
   top: 4px;
+
   margin-left: auto;
   margin-right: auto;
 }
