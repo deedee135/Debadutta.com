@@ -390,6 +390,7 @@ a:active {
   top: -100%;
   left: 0;
   background: #720B98;
+  overflow: hidden;
   z-index: -1;
   transition: all .35s;
 }
