@@ -379,6 +379,8 @@ a:active {
   font-weight: 500;
   overflow: hidden;
   -webkit-ransition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
 }
 
 .button:before,
@@ -393,6 +395,8 @@ a:active {
   overflow: hidden;
   z-index: -1;
   -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
 }
 
 .button:before{
