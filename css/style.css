@@ -400,9 +400,15 @@ a:active {
 
 .row-about
 {
+  background-color: black;
+  height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.row-about p{
+  color: white;
 }
 
 #about h3 {
@@ -418,8 +424,8 @@ a:active {
 }
 
 #about h3 span {
-  border-bottom: 5px solid #4E4351;
-  padding-top: 15px;
+  border-bottom: 5px solid white;
+  padding-top: 20px;
 }
 
 .row-skills ul {
