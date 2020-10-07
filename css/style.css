@@ -95,6 +95,11 @@ footer {
   border-bottom: 1px solid rgba(125, 0, 158, .2);
 }
 
+.scroll {
+  text-align: center;
+  color: white;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -485,6 +490,8 @@ a:active {
   z-index: 1;
 }
 
+
+
 @keyframes animate {
   0% {
     filter: hue-rotate(0deg);
@@ -519,8 +526,19 @@ a:active {
 
 /* Animtion Css*/
 /* ==============================
+small devices (300px and larger)
+================================= */
+@media only screen and (max-width: 780px) {
+  .row-about {
+    margin: 15px;
+  }
+
+}
+
+/* ==============================
 small devices (640px and larger)
 ================================= */
+
 @media only screen and (min-width: 641px) {
   main {
     padding-top: 100px;
