@@ -401,10 +401,7 @@ a:active {
 .row-about
 {
   background-color: black;
-  height: 750px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 20px;
 }
 
 .row-about p{
@@ -535,9 +532,6 @@ a:active {
 small devices (300px and larger)
 ================================= */
 @media only screen and (max-width: 780px) {
-  .row-about {
-    margin: 15px;
-  }
 
 }
 
@@ -567,7 +561,7 @@ small devices (640px and larger)
     width: 82px;
     height: 53px;
     padding: 0 10px;
-    margin-left: 135px;
+    margin: 10px 0 8px 135px;
   }
 
   #work h4 {
@@ -626,6 +620,45 @@ small devices (640px and larger)
     justify-content: center;
   }
 
+  @keyframes slidein-left {
+    from {
+      transform: translate(-800px, 0);
+    }
+
+    to {
+      transform: translate(0, 0);
+    }
+  }
+
+  @keyframes slidein-right {
+    from {
+      transform: translate(800px, 0);
+    }
+
+    to {
+      transform: translate(0, 0);
+    }
+  }
+
+  .row-hero > div {
+    transition: 1s ease;
+    transform: translate(0, 0);
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  .row-hero > div:first-child {
+    animation-name: slidein-left;
+  }
+
+  .row-hero > div:last-child {
+    animation-name: slidein-right;
+  }
+
+
+
+
   .section {
     display: flex;
     align-items: center;
@@ -639,6 +672,29 @@ small devices (640px and larger)
   .pic-padding1 {
     padding-top: 80px;
     padding-bottom: 100px;
+  }
+
+  .row-about
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row-about > div {
+    transition: 1s ease;
+    transform: translate(0, 0);
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  .row-about > div:first-child {
+    animation-name: slidein-left;
+  }
+
+  .row-about > div:last-child {
+    animation-name: slidein-right;
   }
 
   /*=============================
