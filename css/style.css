@@ -57,7 +57,6 @@ footer {
   padding-bottom: 20px;
 }
 
-
 #hero h3 {
   color: White;
 }
@@ -65,7 +64,6 @@ footer {
 #hero h2 {
   color: White;
   text-align: center;
-
 }
 
 .description {
@@ -122,7 +120,6 @@ nav>ul>li>a:hover {
 
 nav>ul>li>a:active {
   color: #4E4351;
-
 }
 
 nav {
@@ -182,6 +179,7 @@ nav>ul {
 #work .pic {
   transition: 1s ease;
 }
+
 /*========================
 hover effect on pictures
 ==========================*/
@@ -191,25 +189,28 @@ hover effect on pictures
   transform: scale(0.8);
   transition: 1s ease;
 }
-.cols-skills:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
-}
-.cols-tools:hover{
+
+.cols-skills:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
 }
 
-.cols-others:hover{
+.cols-tools:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
 }
+
+.cols-others:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
 .col-md-6 h4 {
   color: #720B98;
   padding-top: 0;
@@ -285,9 +286,6 @@ img.auto {
   margin-left: 15px;
 }
 
-
-
-
 .project_overview {
   border-bottom: 8px solid Black;
   text-align: center;
@@ -335,8 +333,6 @@ img.auto {
   animation: bounce 2s;
 }
 
-
-
 a {
   color: #720B98;
   text-decoration: none;
@@ -352,7 +348,6 @@ a:hover,
 a:focus {
   color: #720B98;
   border-bottom: 3px solid #720B98;
-
   /* Underlining when hovering over a link */
 }
 
@@ -362,10 +357,11 @@ a:active {
   border-bottom: 3px solid #720B98;
 }
 
+.resume a {
+  color: white;
+}
 
-
-
-.button1{
+.button1 {
   margin-top: 50px;
   color: white;
   display: inline-block;
@@ -381,8 +377,8 @@ a:active {
 }
 
 .button1:hover {
-  animation: bounce 1s;
-  opacity: .8;
+
+  opacity: 0.8;
 }
 
 .resume {
@@ -395,6 +391,13 @@ a:active {
 
 .social {
   padding: 40px 0;
+}
+
+.row-about
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #about h3 {
@@ -472,6 +475,7 @@ a:active {
   padding-top: 80px;
   padding-bottom: 50px;
 }
+
 /*background Animation in the header*/
 #hero {
   background: linear-gradient(90deg, #7D009E, #CEE2FF);
@@ -497,8 +501,7 @@ a:active {
 
 #hero::before {
   content: '';
-position: absolute;
-
+  position: absolute;
   border-top: 100vh solid transparent;
   border-left: 100vh solid #fff;
   opacity: 0.1;
@@ -506,7 +509,7 @@ position: absolute;
 
 #hero::after {
   content: '';
-position: absolute;
+  position: absolute;
   bottom: 0;
   right: 0;
   border-top: 100vh solid transparent;
@@ -514,15 +517,7 @@ position: absolute;
   opacity: 0.1;
 }
 
-
 /* Animtion Css*/
-
-
-
-
-
-
-
 /* ==============================
 small devices (640px and larger)
 ================================= */
@@ -530,6 +525,7 @@ small devices (640px and larger)
   main {
     padding-top: 100px;
   }
+
   #hero h2 {
     font-size: 2.5em;
   }
@@ -538,8 +534,9 @@ small devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-  #hero{
-    height:700px;
+
+  #hero {
+    height: 700px;
   }
 
   #logo {
@@ -599,12 +596,13 @@ small devices (640px and larger)
   }
 
   .row-hero {
-padding-top: 90px;
+    padding-top: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .section{
+
+  .section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -618,82 +616,88 @@ padding-top: 90px;
     padding-top: 80px;
     padding-bottom: 100px;
   }
+
   /*=============================
   scroll mouse icon animation
   ===============================*/
-
   .mouse-icon {
-  border: 2px solid #ffffff;
-  border-radius: 16px;
-  height: 40px;
-  width: 24px;
-  display: block;
-  z-index: 10;
-  opacity: 0.7;
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mouse-icon .wheel {
-  -webkit-animation-name: drop;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-  -webkit-animation-name: drop;
-          animation-name: drop;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-.mouse-icon .wheel {
-  position: relative;
-  border-radius: 10px;
-  background: #ffffff;
-  width: 2px;
-  height: 6px;
-  top: 4px;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    height: 40px;
+    width: 24px;
+    display: block;
+    z-index: 10;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-  margin-left: auto;
-  margin-right: auto;
-}
-@-webkit-keyframes drop {
-  0% {
-    top: 5px;
-    opacity: 0;
+  .mouse-icon .wheel {
+    -webkit-animation-name: drop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -webkit-animation-name: drop;
+    animation-name: drop;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
   }
-  30% {
-    top: 10px;
-    opacity: 1;
+
+  .mouse-icon .wheel {
+    position: relative;
+    border-radius: 10px;
+    background: #ffffff;
+    width: 2px;
+    height: 6px;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  100% {
-    top: 25px;
-    opacity: 0;
+
+  @-webkit-keyframes drop {
+    0% {
+      top: 5px;
+      opacity: 0;
+    }
+
+    30% {
+      top: 10px;
+      opacity: 1;
+    }
+
+    100% {
+      top: 25px;
+      opacity: 0;
+    }
   }
-}
-@keyframes drop {
-  0% {
-    top: 5px;
-    opacity: 0;
+
+  @keyframes drop {
+    0% {
+      top: 5px;
+      opacity: 0;
+    }
+
+    30% {
+      top: 10px;
+      opacity: 1;
+    }
+
+    100% {
+      top: 25px;
+      opacity: 0;
+    }
   }
-  30% {
-    top: 10px;
-    opacity: 1;
-  }
-  100% {
-    top: 25px;
-    opacity: 0;
-  }
-}
 }
 
 /* ==============================
@@ -734,7 +738,11 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .row-about {
+    padding-top: 50px;
+  }
+}
 
 /*================================
 CSS Animation
@@ -794,7 +802,6 @@ CSS Animation
     transform: translate(100px, 48px);
   }
 }
-
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
