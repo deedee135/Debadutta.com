@@ -102,11 +102,7 @@
   padding: 0px;
 }
 
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .col-User_stories {
   padding: 10px;

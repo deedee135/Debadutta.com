@@ -57,6 +57,11 @@
   align-items: center;
   justify-content: center;
 }
+.roles_Responsibilities {
+padding: 15px;
+  background-size: cover;
+  background: #e9efc2;
+}
 
 .col-roles-Responsibilities h4 {
   text-align: left;
