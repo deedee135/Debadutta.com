@@ -259,6 +259,16 @@ small devices (300px and larger)
   .description h3 {
     text-align: center;
   }
+.col-roles-Responsibilities h4{
+  margin-left: 20px;
+
+
+}
+.col-roles-Responsibilities p{
+  margin-left: 20px;
+
+
+}
 
   .background1 {
     padding-top: 10px;
