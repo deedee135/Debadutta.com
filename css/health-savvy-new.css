@@ -9,6 +9,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+.description {
+  text-align: left;}
 
 #user_research h4 {
   font-family: 'Playfair Display', serif;
@@ -20,18 +22,19 @@
   padding: 20px;
 }
 
-.pic-padding h1
-{
+.pic-padding h1 {
   font-size: 20px;
   color: #4e4351;
   font-family: Montserrat;
   font-weight: 500;
   border-left: 7px solid #a4b248;
-  padding:20px;
+  padding: 20px;
 }
+
 .title1 {
   padding-bottom: 20px;
 }
+
 .title1 h2 {
   color: #819900;
   background-color: transparent;
@@ -55,6 +58,12 @@
   justify-content: center;
 }
 
+.col-roles-Responsibilities h4 {
+  text-align: left;
+  font-weight: 600;
+  color: #607900;
+}
+
 @media only screen and (min-width: 790px) {
   .col-mockups3 {
     width: 33.33%;
@@ -64,24 +73,18 @@
     width: 33.33%;
     text-align: left;
     padding-left: 0;
+  }
 
-  }
-  .col-roles-Responsibilities h4
-  {
-    text-align: left;
-    font-weight: 600;
-    color: #607900;
-  }
-  .project-details{
+  .project-details {
     padding-bottom: 30px;
   }
+
+  .roles_Responsibilities {
+    padding-left: 80px;
+    background-size: cover;
+    background: #e9efc2;
   }
-.roles_Responsibilities
-{
-  padding-left: 80px;
-  background-size: cover;
-  background: #e9efc2;
-}
+
   .col-mockups2 {
     width: 400px;
     animation-delay: 2s;
