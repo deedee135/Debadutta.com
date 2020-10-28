@@ -188,26 +188,20 @@ Medium devices (640px and larger)
     justify-content: center;
   }
 
-  .col-mockups_left {
-    position: relative;
-    float: left;
+  .col-mockups_right{
     width: 50%;
-  }
 
-  .col-description_right {
-    float: right;
+  }
+  .col-description_left{
     width: 50%;
   }
+  .col-description_right{
+    width: 50%;
+  }
+.col-mockups_left{
+  width: 50%;
+}
 
-  .col-mockups_right {
-    width: 50%;
-    float: right;
-  }
-
-  .col-description_left {
-    float: left;
-    width: 50%;
-  }
 
   @keyframes slidein-left {
     from {
