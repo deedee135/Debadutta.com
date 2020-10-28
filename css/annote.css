@@ -25,7 +25,7 @@
 .row-annote:after {
   content: "";
   display: table;
-  clear: both
+  clear: both;
 }
 .col-img{
   float: left;
