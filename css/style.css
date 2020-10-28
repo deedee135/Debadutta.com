@@ -184,6 +184,12 @@ nav>ul {
 #work .pic {
   transition: 1s ease;
 }
+.button-position{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
 
 /*========================
 hover effect on pictures
@@ -668,12 +674,12 @@ small devices (640px and larger)
   }
 
   .pic-padding {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
 
   .pic-padding1 {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
 
   .row-about
