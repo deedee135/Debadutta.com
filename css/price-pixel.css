@@ -1,7 +1,7 @@
 .header-text {
   background: black;
   border-radius: 30px;
-  width 70%;
+
   text-align: center;
 }
 
@@ -13,11 +13,13 @@
 }
 
 .header-text h2 {
+
+font-family: 'Exo 2', sans-serif;
   font-weight: 500;
   color: #FFB500;
   text-align: center;
   letter-spacing: 9.3px;
-  font-size: 1.2em;
+  font-size: 18px;
 }
 
 .container {
@@ -25,7 +27,7 @@
 }
 
 .pic {
-  padding: 50px 10px;
+  padding: 20px 10px;
 }
 
 .container p {
@@ -34,8 +36,15 @@
 }
 
 .body h2 {
+  font-family: 'Exo 2', sans-serif;
   color: #FFB500;
   text-align: center;
+}
+.body h4{
+  font-size: 25px;
+  font-family: 'Exo 2', sans-serif;
+  color: #461900;;
+  text-align: left;
 }
 
 .pic h2 {
@@ -44,10 +53,53 @@
 }
 
 .body h3 {
+  padding-top: 30px;
   color: #FFB500;
   font-style: italic;
   font-weight: bold;
   text-decoration: overline;
+}
+blockquote {
+
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+color:#FFB500;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+color:#FFB500;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #FFECBD;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FFFAED;
 }
 
 /* ==============================
@@ -57,4 +109,8 @@ small devices (640px and larger)
   .header-text h2 {
     font-size: 2em;
   }
+  .pic {
+    padding: 30px 10px;
+  }
+
 }

@@ -1,0 +1,79 @@
+
+
+.title_annote h3{
+
+  text-align: center;
+  font-family: Merriweather, serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #614AD3;
+}
+#border h3 span {
+  border-bottom: 5px solid #614AD3;
+  padding-right:50px;
+  padding-bottom: 10px;
+
+}
+
+#border h3{
+  color: black;
+  font-size: 25px;
+}
+.retrospective h4 {
+  text-align: left;
+  
+}
+.retrospective p{
+  text-align: left;
+}
+
+
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 641px) {
+
+  .bg{
+
+    background: cover;
+    background-color: #EDECF9;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-content{
+
+    width: 50%;
+  }
+  .col-img{
+    width: 50%;
+  }
+
+
+}
+
+/* ==============================
+small devices (300px and larger)
+================================= */
+@media only screen and (max-width: 780px) {
+.image{
+  width: 50%;
+}
+.pic-padding{
+  padding: 0;
+}
+
+}
+
+}
