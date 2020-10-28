@@ -22,11 +22,7 @@
   text-align: left;
 }
 
-.row-annote:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .col-img{
   float: left;
   width: 60%;
