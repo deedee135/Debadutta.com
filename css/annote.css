@@ -14,25 +14,10 @@
   color: black;
   font-size: 25px;
 }
-.retrospective h4 {
-  text-align: left;
-
-}
-.retrospective p{
-  text-align: left;
-}
 
 
-.col-img{
-  float: left;
-  width: 60%;
 
-}
-.col-content{
-  float: left;
-  width: 40%;
 
-}
 .bg{
   display: flex;
   align-items: center;
@@ -47,12 +32,18 @@
 }
 
 
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 641px) {
 
+  #border h3 span {
+    border-bottom: 5px solid #614AD3;
+    padding-right:50px;
+    padding-bottom: 10px;
 
+  }
 
   .bg{
 
@@ -61,17 +52,22 @@ Medium devices (640px and larger)
     height: 200px;
     margin-bottom: 50px;
   }
-  #border h3 span {
-    border-bottom: 5px solid #614AD3;
-    padding-right:50px;
-    padding-bottom: 10px;
 
-  }
 
   .row-annote {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .col-img{
+    float: left;
+    width: 60%;
+
+  }
+  .col-content{
+    float: left;
+    width: 40%;
+
   }
 
 
@@ -94,11 +90,12 @@ small devices (300px and larger)
    width: 100%;
    text-align: center;
  }
+ .row-annote{
+   border-bottom: 5px solid #614AD3;
+   padding-top: 30px;
+   padding-bottom: 10px;
+ }
 
-  .row-annote{
-    border-bottom: 5px solid #614AD3;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
+
 
 }
