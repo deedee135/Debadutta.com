@@ -1,0 +1,56 @@
+
+.title1 h2 {
+  color: #253171;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-roles-Responsibilities {
+  width: 33.33%;
+  text-align: left;
+  padding-left: 0;
+}
+
+.roles_Responsibilities {
+  padding-left: 80px;
+  background-size: cover;
+  background: #FBF7FF;
+}
+.pic{
+  background-size: cover;
+  background: #FBF7FF;
+
+}
+.container h3{
+  text-align: center;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 780px) {
+
+  .pic{
+    padding: 20px;
+  }
+  .roles_Responsibilities {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+
+
+
+  .pic{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}
