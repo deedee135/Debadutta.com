@@ -127,9 +127,11 @@
 .row-mockups_desc > div:first-child{
   position: relative;
 }
+
 .prototype{
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 80%;
 }
 
