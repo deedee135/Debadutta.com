@@ -146,13 +146,26 @@ nav {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
+  top: 0;
   margin-top: 0;
   font-size: 20px;
   margin-right: 15px;
+  border-bottom: 0;
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 0 0 0;
+  background: white;
+  display:block;
+  float: none;
+}
+.navtoggle.responsive nav li a{
+  display: block;
+  padding: 10px;
+}
+.navtoggle.responsive nav ul{
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .navtoggle.responsive li {
@@ -189,6 +202,9 @@ nav>ul {
   align-items: center;
   justify-content: center;
   padding-bottom: 50px;
+}
+#logo a:hover{
+  border-bottom: 0;
 }
 
 /*========================
@@ -295,6 +311,7 @@ img.auto {
   height: 32px;
   margin-top: 20px;
   margin-left: 15px;
+
 }
 
 .project_overview {
@@ -540,7 +557,13 @@ a:active {
 small devices (300px and larger)
 ================================= */
 @media only screen and (max-width: 780px) {
+#logo {
+margin-bottom: 10px;
 
+}
+.navtoggle li .icon {
+  margin-top: 20px;
+}
 }
 
 /* ==============================
@@ -550,6 +573,9 @@ small devices (640px and larger)
 @media only screen and (min-width: 641px) {
   main {
     padding-top: 100px;
+  }
+  #logo a:hover {
+    border-bottom: 0;
   }
 
   #hero h2 {
@@ -570,6 +596,7 @@ small devices (640px and larger)
     height: 53px;
     padding: 0 10px;
     margin: 10px 0 8px 135px;
+    border-bottom: 0;
   }
 
   #work h4 {
@@ -795,6 +822,9 @@ MediumISH devices (900px and larger)
   .row-skills {
     text-align: center;
   }
+  #logo a:hover{
+    border-bottom: 0;
+  }
 
   .cols-skills, .cols-tools, .cols-others {
     width: 250px;
@@ -808,6 +838,9 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   .col-lg-8 {
     width: 60%;
+  }
+  #logo a:hover{
+    border-bottom: 0;
   }
 
   .col-lg-7 {
