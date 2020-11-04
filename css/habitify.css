@@ -127,6 +127,12 @@
 .row-mockups_desc > div:first-child{
   position: relative;
 }
+.prototype{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
