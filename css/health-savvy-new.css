@@ -69,10 +69,7 @@ padding: 15px;
   color: #607900;
 }
 .prototype{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  width:100%;
 }
 
 
@@ -108,7 +105,14 @@ padding: 15px;
     font-weight: 500;
     color: #ff7300;
   }
-  
+  .prototype{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
 
 /* ==============================
 small devices (300px and larger)
